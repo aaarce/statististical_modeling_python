@@ -102,4 +102,4 @@ r2 = r2_score(y_test, y_pred)
 
 # outputting the coefficients and performance metrics
 coefficients = pd.Series(model.coef_, index=features)
-coefficients
+print(coefficients)
